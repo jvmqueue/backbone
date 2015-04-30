@@ -14,7 +14,7 @@
 </ul>
 <h3>Stategies and Techniques</h3>
 <ul>
-	<li>Hash maps for persisting DOM nodes</li>
+	<li>Hash maps for persisting DOM node access</li>
 	<li>Backbone.js for employing Model View workflow</li>
 	<li>underscore.js for HTML templates</li>
 	<li>jQuery for DOM access</li>
