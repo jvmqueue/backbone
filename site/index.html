@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Backbone Prototype as Test Only</title>
+	<link rel="stylesheet" href="scripts/base/bower_components/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+<div class="container" id="container">
+	<h1>Backbone Prototype App. as Test Only</h1>
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Author</th>
+				<th>Title</th>
+				<th>URL</th>
+				<th>Actions</th>
+			</tr>
+			<tr>
+				<td><input type="text" class="form-control author-input"></td>
+				<td><input type="text" class="form-control title-input"></td>
+				<td><input type="text" class="form-control url-input"></td>
+				<td><button class="btn btn-primary add-blog">Add</button></td>
+			</tr>
+		</thead>
+		<tbody id="blogs-list" class="blogs-list"></tbody>
+	</table>	
+</div>
+
+	<script type="text/template" id="blog-list-template">
+		<td><span class="author"> <%= author %> </span></td>
+		<td><span class="title"> <%= title %> </span></td>
+		<td><span class="url"> <%= url %> </span></td>
+		<td>
+			<button class="btn btn-warning edit-blog">Edit</button>
+			<button class="btn btn-danger delete-blog">Delete</button>
+			<button class="btn btn-success update-blog" style="display:none;">Update</button>
+			<button class="btn btn-danger cancel" style="display:none;">Cancel</button>			
+		</td>
+	</script>
+
+	<script src="scripts/base/bower_components/jquery/dist/jquery.js"></script>	
+	<script src="scripts/base/bower_components/underscore/underscore.js"></script>
+	<script src="scripts/base/bower_components/backbone/backbone.js"></script>
+	<script src="scripts/base/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+	<script src="scripts/main.js"></script>
+</body>
+</html>
