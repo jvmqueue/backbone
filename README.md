@@ -19,6 +19,8 @@
 	<li>underscore.js for HTML templates</li>
 	<li>jQuery for DOM access</li>
 	<li>Grunt for CSS lint, JS Lint, and jsDoc</li>
+	<li>Bower for quick resource download during app development</li>
+	<li>Erwin for quick HTML editing</li>
 </ul>
 </ul>
 <h4>Fundemental Architecture</h4>
